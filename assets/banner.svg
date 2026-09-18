@@ -1,46 +1,39 @@
-<svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="320" rx="24" fill="#0D1117"/>
-  <rect x="1" y="1" width="1398" height="318" rx="23" stroke="#30363D" stroke-width="2"/>
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="360" fill="#0A0D12"/>
 
-  <g opacity="0.10" stroke="#8B949E" stroke-width="1">
-    <path d="M0 80H1400"/>
-    <path d="M0 160H1400"/>
-    <path d="M0 240H1400"/>
-  </g>
+  <defs>
+    <clipPath id="clip">
+      <rect width="1400" height="360" rx="20"/>
+    </clipPath>
+  </defs>
 
-  <text x="84" y="132" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="2">HABUSKID</text>
-  <text x="88" y="184" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="24">smart contracts · backend · frontend · infrastructure</text>
+  <g clip-path="url(#clip)">
+    <rect x="1" y="1" width="1398" height="358" rx="19" stroke="#202833" stroke-width="2"/>
 
-  <g transform="translate(88 220)">
-    <rect x="0" y="0" width="78" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-    <text x="21" y="23" fill="#58A6FF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">EVM</text>
+    <g opacity="0.82" fill="none" stroke-linecap="round">
+      <path d="M-90 302C120 198 270 323 466 253C690 172 752 232 916 214C1100 194 1188 92 1490 134" stroke="#0EA5E9" stroke-width="2"/>
+      <path d="M-88 318C128 214 282 338 480 270C704 193 774 250 938 232C1120 212 1202 111 1492 151" stroke="#22D3EE" stroke-width="1.7"/>
+      <path d="M-82 334C138 232 292 352 492 288C716 216 796 270 958 250C1142 230 1222 132 1496 169" stroke="#38BDF8" stroke-width="1.4"/>
+      <path d="M-76 350C146 250 306 368 506 305C728 237 820 288 980 269C1162 248 1244 151 1500 187" stroke="#60A5FA" stroke-width="1.2"/>
+      <path d="M1010 326C1118 268 1148 221 1196 177C1246 131 1294 110 1452 102" stroke="#0EA5E9" stroke-width="1.5"/>
+      <path d="M1046 344C1148 290 1180 242 1226 201C1270 161 1318 140 1466 130" stroke="#22D3EE" stroke-width="1.2"/>
+    </g>
 
-    <rect x="92" y="0" width="108" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-    <text x="111" y="23" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">STARKNET</text>
+    <g opacity="0.12" stroke="#64748B" stroke-width="1">
+      <path d="M0 72H1400"/>
+      <path d="M0 144H1400"/>
+      <path d="M0 216H1400"/>
+      <path d="M0 288H1400"/>
+    </g>
 
-    <rect x="214" y="0" width="96" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-    <text x="234" y="23" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">SOLANA</text>
-  </g>
+    <circle cx="1240" cy="74" r="5" fill="#38BDF8"/>
+    <circle cx="1274" cy="74" r="5" fill="#22D3EE"/>
+    <circle cx="1308" cy="74" r="5" fill="#0EA5E9"/>
 
-  <g transform="translate(1010 58)">
-    <rect width="300" height="204" rx="18" fill="#161B22" stroke="#30363D" stroke-width="2"/>
-    <circle cx="24" cy="22" r="5" fill="#FF7B72"/>
-    <circle cx="42" cy="22" r="5" fill="#D29922"/>
-    <circle cx="60" cy="22" r="5" fill="#3FB950"/>
+    <text x="82" y="143" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="1">HABUSKID</text>
+    <text x="86" y="193" fill="#22D3EE" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4">FULL STACK WEB3 ENGINEER</text>
+    <text x="86" y="236" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="1.4">WEB3 · CLOUD · DEVOPS · AI</text>
 
-    <text x="24" y="72" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
-    <text x="48" y="72" fill="#C9D1D9" font-family="monospace" font-size="18">build</text>
-    <text x="24" y="106" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
-    <text x="48" y="106" fill="#C9D1D9" font-family="monospace" font-size="18">test</text>
-    <text x="24" y="140" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
-    <text x="48" y="140" fill="#C9D1D9" font-family="monospace" font-size="18">ship</text>
-
-    <path d="M176 70H256" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
-    <path d="M176 104H232" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
-    <path d="M176 138H266" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
-
-    <circle cx="160" cy="70" r="5" fill="#58A6FF"/>
-    <circle cx="160" cy="104" r="5" fill="#3FB950"/>
-    <circle cx="160" cy="138" r="5" fill="#D29922"/>
+    <rect x="86" y="267" width="160" height="3" rx="1.5" fill="#0EA5E9"/>
   </g>
 </svg>
