@@ -98,14 +98,39 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
 
 </td>
 </tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Black Box](https://github.com/Habuskid/blvckbox)
+
+Forensic infrastructure for autonomous financial agents. It captures what an agent knew before a decision, separates decision quality from later P&L, and applies deterministic policy boundaries.
+
+**Stack:** Binance Agentic MCP, Next.js, TypeScript, Zod, server-side policy checks, Node test runner
+
+[Repository](https://github.com/Habuskid/blvckbox)
+
+</td>
+<td width="50%" valign="top">
+
+### [FlightClaim](https://github.com/Habuskid/flightclaim)
+
+Deterministic EU261 eligibility agent with paid x402 access, live flight telemetry, rate limiting, and generated claim outputs.
+
+**Stack:** Next.js, TypeScript, OKX x402, Upstash Redis, Jest, Tailwind CSS
+
+[Repository](https://github.com/Habuskid/flightclaim) · [Live app](https://flightclaim-one.vercel.app)
+
+</td>
+</tr>
 </table>
 
 ## More things I have built
 
-- [FlightClaim](https://github.com/Habuskid/flightclaim) — deterministic EU261 flight-compensation agent with OKX x402 payments, live telemetry, Redis rate limiting, and Jest tests.
 - [Renaiss Intelligence Agent](https://github.com/Habuskid/Renaiss-Intelligence-Agent) — collectible and real-world-asset intelligence terminal using live Renaiss market data and Gemini analysis.
 - [ArcDrip](https://arcdrip.vercel.app) — multi-currency payroll streaming, expenses, vesting, and stablecoin flows on Arc.
 - [Finda](https://usefinda.vercel.app) — full-stack commerce application built with Next.js, Prisma, authentication, and server-side database workflows.
+- [RiskScan](https://github.com/Habuskid/riskscan) — wallet and token risk analysis service using live security data, AI-assisted assessment, Express, and x402.
 - [UI Reference Library](https://github.com/Habuskid/ui-templates) — GitHub-native Pinterest reference capture pipeline with Actions, Supabase, palette extraction, and a reusable gallery.
 - Demo Engine — deterministic product-demo tooling using Playwright, real browser state, FFmpeg, YAML scenes, and local voice tooling.
 
@@ -124,7 +149,7 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### Frontend and product
+### Frontend and application layer
 
 <p>
   <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
@@ -132,7 +157,11 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/shadcn%2Fui-111111?style=flat-square" alt="shadcn/ui" />
+  <img src="https://img.shields.io/badge/Base_UI-111111?style=flat-square" alt="Base UI" />
+  <img src="https://img.shields.io/badge/Radix_UI-111111?style=flat-square" alt="Radix UI" />
   <img src="https://img.shields.io/badge/Recharts-111111?style=flat-square" alt="Recharts" />
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" />
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square" alt="Zod" />
 </p>
 
 ### Backend, data and automation
@@ -147,37 +176,54 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
   <img src="https://img.shields.io/badge/Drizzle-111111?style=flat-square" alt="Drizzle" />
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Upstash-00E9A3?style=flat-square" alt="Upstash" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Telegraf-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegraf" />
 </p>
 
-### Onchain and agent infrastructure
+### Wallet, Web3 and protocol tooling
 
 <p>
   <img src="https://img.shields.io/badge/viem-111111?style=flat-square" alt="viem" />
   <img src="https://img.shields.io/badge/wagmi-111111?style=flat-square" alt="wagmi" />
   <img src="https://img.shields.io/badge/ethers.js-2535A0?style=flat-square" alt="ethers.js" />
+  <img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=flat-square&logo=walletconnect&logoColor=white" alt="WalletConnect" />
+  <img src="https://img.shields.io/badge/RainbowKit-111111?style=flat-square" alt="RainbowKit" />
+  <img src="https://img.shields.io/badge/SIWE-111111?style=flat-square" alt="SIWE" />
   <img src="https://img.shields.io/badge/Foundry-111111?style=flat-square" alt="Foundry" />
   <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logoColor=111111" alt="Hardhat" />
   <img src="https://img.shields.io/badge/Starknet.js-111111?style=flat-square" alt="Starknet.js" />
-  <img src="https://img.shields.io/badge/RainbowKit-111111?style=flat-square" alt="RainbowKit" />
-  <img src="https://img.shields.io/badge/x402-111111?style=flat-square" alt="x402" />
-  <img src="https://img.shields.io/badge/Portal-111111?style=flat-square" alt="Portal" />
+  <img src="https://img.shields.io/badge/Solana_web3.js-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana web3.js" />
+  <img src="https://img.shields.io/badge/Metaplex-111111?style=flat-square" alt="Metaplex" />
+  <img src="https://img.shields.io/badge/Reservoir-111111?style=flat-square" alt="Reservoir" />
 </p>
+
+### Networks, payments and privacy
 
 <p>
   <img src="https://img.shields.io/badge/Celo-FCFF52?style=flat-square&logoColor=111111" alt="Celo" />
   <img src="https://img.shields.io/badge/Arc-111111?style=flat-square" alt="Arc" />
   <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" alt="Ethereum" />
   <img src="https://img.shields.io/badge/Starknet-111111?style=flat-square" alt="Starknet" />
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana" />
   <img src="https://img.shields.io/badge/GenLayer-111111?style=flat-square" alt="GenLayer" />
   <img src="https://img.shields.io/badge/Zama_fhEVM-111111?style=flat-square" alt="Zama fhEVM" />
   <img src="https://img.shields.io/badge/Circle_App_Kit-00B14F?style=flat-square" alt="Circle App Kit" />
   <img src="https://img.shields.io/badge/CCTP-00B14F?style=flat-square" alt="CCTP" />
   <img src="https://img.shields.io/badge/STRK20-111111?style=flat-square" alt="STRK20" />
   <img src="https://img.shields.io/badge/Morpho-2470FF?style=flat-square" alt="Morpho" />
+  <img src="https://img.shields.io/badge/x402-111111?style=flat-square" alt="x402" />
+  <img src="https://img.shields.io/badge/Portal-111111?style=flat-square" alt="Portal" />
+</p>
+
+### Agent and AI integrations
+
+<p>
   <img src="https://img.shields.io/badge/Bitget_Agent_SDK-111111?style=flat-square" alt="Bitget Agent SDK" />
+  <img src="https://img.shields.io/badge/Binance_Agentic_MCP-111111?style=flat-square" alt="Binance Agentic MCP" />
   <img src="https://img.shields.io/badge/OKX_x402-111111?style=flat-square" alt="OKX x402" />
+  <img src="https://img.shields.io/badge/GenLayer_Transaction_Kit-111111?style=flat-square" alt="GenLayer Transaction Kit" />
+  <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini AI" />
 </p>
 
 ### Testing and delivery
@@ -186,6 +232,7 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
   <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
