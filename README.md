@@ -107,7 +107,7 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
 - [ArcDrip](https://arcdrip.vercel.app) — multi-currency payroll streaming, expenses, vesting, and stablecoin flows on Arc.
 - [Finda](https://usefinda.vercel.app) — full-stack commerce application built with Next.js, Prisma, authentication, and server-side database workflows.
 - [UI Reference Library](https://github.com/Habuskid/ui-templates) — GitHub-native Pinterest reference capture pipeline with Actions, Supabase, palette extraction, and a reusable gallery.
-- [Demo Engine](https://github.com/Habuskid) — deterministic product-demo tooling using Playwright, real browser state, FFmpeg, YAML scenes, and local voice tooling.
+- Demo Engine — deterministic product-demo tooling using Playwright, real browser state, FFmpeg, YAML scenes, and local voice tooling.
 
 ## Stack
 
@@ -194,9 +194,9 @@ Confidential treasury vaults with cryptographic spending-policy enforcement and 
 ## Contribution activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/output/github-contribution-grid-snake.svg">
-  <img alt="Habuskid contribution activity" src="https://raw.githubusercontent.com/Habuskid/Habuskid/output/github-contribution-grid-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg">
+  <img alt="Habuskid contribution activity" src="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
 ## Connect
