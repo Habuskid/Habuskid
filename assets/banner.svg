@@ -1,40 +1,46 @@
 <svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="320" fill="#0D1117"/>
-  <rect x="1" y="1" width="1398" height="318" stroke="#30363D" stroke-width="2"/>
+  <rect width="1400" height="320" rx="24" fill="#0D1117"/>
+  <rect x="1" y="1" width="1398" height="318" rx="23" stroke="#30363D" stroke-width="2"/>
 
-  <g opacity="0.16" stroke="#58A6FF" stroke-width="1">
-    <path d="M0 64H1400"/>
-    <path d="M0 128H1400"/>
-    <path d="M0 192H1400"/>
-    <path d="M0 256H1400"/>
-    <path d="M140 0V320"/>
-    <path d="M280 0V320"/>
-    <path d="M420 0V320"/>
-    <path d="M560 0V320"/>
-    <path d="M700 0V320"/>
-    <path d="M840 0V320"/>
-    <path d="M980 0V320"/>
-    <path d="M1120 0V320"/>
-    <path d="M1260 0V320"/>
+  <g opacity="0.10" stroke="#8B949E" stroke-width="1">
+    <path d="M0 80H1400"/>
+    <path d="M0 160H1400"/>
+    <path d="M0 240H1400"/>
   </g>
 
-  <rect x="72" y="72" width="8" height="176" fill="#58A6FF"/>
-  <text x="112" y="138" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="4">HABUSKID</text>
-  <text x="114" y="187" fill="#58A6FF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2">FULL-STACK WEB3 ENGINEER</text>
-  <text x="114" y="230" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="20">EVM  ·  STARKNET  ·  SOLANA  ·  CLOUD / DEVOPS</text>
+  <text x="84" y="132" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="2">HABUSKID</text>
+  <text x="88" y="184" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="24">smart contracts · backend · frontend · infrastructure</text>
 
-  <g transform="translate(1035 70)">
-    <rect width="280" height="180" rx="16" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <g transform="translate(88 220)">
+    <rect x="0" y="0" width="78" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="21" y="23" fill="#58A6FF" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">EVM</text>
+
+    <rect x="92" y="0" width="108" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="111" y="23" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">STARKNET</text>
+
+    <rect x="214" y="0" width="96" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+    <text x="234" y="23" fill="#C9D1D9" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">SOLANA</text>
+  </g>
+
+  <g transform="translate(1010 58)">
+    <rect width="300" height="204" rx="18" fill="#161B22" stroke="#30363D" stroke-width="2"/>
     <circle cx="24" cy="22" r="5" fill="#FF7B72"/>
     <circle cx="42" cy="22" r="5" fill="#D29922"/>
     <circle cx="60" cy="22" r="5" fill="#3FB950"/>
-    <path d="M24 54L48 74L24 94" stroke="#58A6FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M66 98H112" stroke="#F0F6FC" stroke-width="5" stroke-linecap="round"/>
-    <path d="M150 62H242" stroke="#30363D" stroke-width="8" stroke-linecap="round"/>
-    <path d="M150 88H222" stroke="#30363D" stroke-width="8" stroke-linecap="round"/>
-    <path d="M150 114H252" stroke="#30363D" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="124" cy="142" r="6" fill="#58A6FF"/>
-    <circle cx="156" cy="142" r="6" fill="#3FB950"/>
-    <circle cx="188" cy="142" r="6" fill="#D29922"/>
+
+    <text x="24" y="72" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
+    <text x="48" y="72" fill="#C9D1D9" font-family="monospace" font-size="18">build</text>
+    <text x="24" y="106" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
+    <text x="48" y="106" fill="#C9D1D9" font-family="monospace" font-size="18">test</text>
+    <text x="24" y="140" fill="#58A6FF" font-family="monospace" font-size="18">$</text>
+    <text x="48" y="140" fill="#C9D1D9" font-family="monospace" font-size="18">ship</text>
+
+    <path d="M176 70H256" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M176 104H232" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
+    <path d="M176 138H266" stroke="#30363D" stroke-width="6" stroke-linecap="round"/>
+
+    <circle cx="160" cy="70" r="5" fill="#58A6FF"/>
+    <circle cx="160" cy="104" r="5" fill="#3FB950"/>
+    <circle cx="160" cy="138" r="5" fill="#D29922"/>
   </g>
 </svg>
