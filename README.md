@@ -1,6 +1,8 @@
-![MasterHead](https://blog.bit.ai/wp-content/uploads/2018/09/How-to-Embed-GitHub-Gists-in-Your-Documents-Blog-Banner.png)
+<p align="center">
+  <img src="./assets/banner.svg" alt="Habuskid profile banner" width="100%" />
+</p>
 
-<h1 align="center">Abubakar Aminu <br/> GitHub Profile</h1>
+<h1 align="center">Habuskid <br/> GitHub Profile</h1>
 <h3 align="center">Full Stack Web3 Developer</h3>
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/media/320984a9ca58b3c73274c9259ecf6de8.gif">
@@ -17,19 +19,20 @@
 
 - 🔭 I’m currently working on **Web3 applications, smart contracts, protocol integrations, and infrastructure**
 
-- 🌱 I’m going deeper into **Web3 security, protocol engineering, and cloud infrastructure**
+- 🌱 I’m learning more about **Web3 security, protocol engineering, and cloud infrastructure**
 
 - 💬 Ask me about **TypeScript, Solidity, Next.js, Node.js, EVM, Starknet, Solana, Web3 infrastructure, and DevOps**
 
-- 📫 Reach me via **[@Habuskiid](https://x.com/Habuskiid)**
+- 📫 Reach me on **X [@Habuskiid](https://x.com/Habuskiid)** or **Telegram [@habuskid01](https://t.me/habuskid01)**
 
-- ⚡ Fun fact: **I prefer real integrations over mocked flows**
+- ⚡ Fun fact: **Most of my projects start with a protocol doc, a terminal, and one question: can I make the real flow work?**
 
 ---
 
 ## 🔗 Connect with Me
 
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Habuskiid)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/habuskid01)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=vercel&logoColor=white)](https://habuskid.vercel.app)
 
 ---
@@ -71,15 +74,25 @@
 ## 📊 GitHub Stats
 
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Habuskid&layout=compact&theme=dark" />
+  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Habuskid&theme=github_dark&animation=load" alt="Habuskid top languages" />
 </p>
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Habuskid&show_icons=true&theme=dark&count_private=true&hide=contribs" />
+  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Habuskid&theme=github_dark&animation=sequence" alt="Habuskid GitHub stats" />
 </p>
 <p>
-  <img align="center" src="https://streak-stats.demolab.com/?user=Habuskid&theme=dark" />
+  <img align="center" src="https://streak-stats.demolab.com/?user=Habuskid&theme=dark" alt="Habuskid GitHub streak" />
 </p>
 
 > **Note:** Top languages are based on GitHub activity, not actual proficiency.
+
+---
+
+## 🐍 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg">
+  <img alt="Habuskid contribution activity snake" src="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 ---
