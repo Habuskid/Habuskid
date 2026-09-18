@@ -17,9 +17,9 @@
 
 ## About
 
-I build full-stack and onchain products around stablecoin infrastructure, autonomous agents, privacy, payments, and decision systems.
+I build across full-stack engineering, Web3 infrastructure, cloud engineering, DevOps, autonomous agents, privacy, payments, and decision systems.
 
-My work is usually built around a real end-to-end path: core logic first, then integration, reliability, interface, and polish. I prefer verifiable integrations and explicit failure states over mock functionality.
+My work is usually built around a real end-to-end path: core logic first, then integration, reliability, infrastructure, deployment, interface, and polish. I prefer verifiable integrations, reproducible environments, explicit failure states, and deployment checks over mock functionality.
 
 ## Featured work
 
@@ -225,6 +225,36 @@ Deterministic EU261 eligibility agent with paid x402 access, live flight telemet
   <img src="https://img.shields.io/badge/GenLayer_Transaction_Kit-111111?style=flat-square" alt="GenLayer Transaction Kit" />
   <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini AI" />
 </p>
+
+### Cloud engineering and DevOps
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/CI%2FCD-111111?style=flat-square" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Serverless-111111?style=flat-square" alt="Serverless" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Railway-111111?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
+  <img src="https://img.shields.io/badge/Modal-111111?style=flat-square" alt="Modal" />
+  <img src="https://img.shields.io/badge/Vultr-007BFC?style=flat-square" alt="Vultr" />
+  <img src="https://img.shields.io/badge/GitHub_Codespaces-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Codespaces" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Neon_Serverless_Postgres-111111?style=flat-square" alt="Neon Serverless Postgres" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Upstash_Redis-00E9A3?style=flat-square" alt="Upstash Redis" />
+  <img src="https://img.shields.io/badge/Secrets_%26_Env_Management-111111?style=flat-square" alt="Secrets and environment management" />
+  <img src="https://img.shields.io/badge/DB_Migrations-111111?style=flat-square" alt="Database migrations" />
+  <img src="https://img.shields.io/badge/Health_Checks-111111?style=flat-square" alt="Health checks" />
+  <img src="https://img.shields.io/badge/Cron_%26_Scheduled_Jobs-111111?style=flat-square" alt="Cron and scheduled jobs" />
+  <img src="https://img.shields.io/badge/Staging_%E2%86%92_Production-111111?style=flat-square" alt="Staging to production promotion" />
+</p>
+
+Across the repositories I use CI pipelines, isolated staging and production environments, secret-backed deployments, exact dependency installs, database migration gates, deployment preflights, post-deploy health checks, scheduled serverless jobs, and commit-pinned release promotion.
 
 ### Testing and delivery
 
