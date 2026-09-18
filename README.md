@@ -47,7 +47,7 @@
 | **Web3 Tooling** | ![viem](https://img.shields.io/badge/viem-111111?style=for-the-badge) ![wagmi](https://img.shields.io/badge/wagmi-111111?style=for-the-badge) ![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=for-the-badge) ![Foundry](https://img.shields.io/badge/Foundry-111111?style=for-the-badge) ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black) |
 | **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) ![Neon](https://img.shields.io/badge/Neon-111111?style=for-the-badge) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) |
 | **CI/CD & Cloud** | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-000000?style=for-the-badge&logo=railway&logoColor=white) |
-| **Testing** | ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) |
+| **Testing** | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) ![Foundry](https://img.shields.io/badge/Foundry-111111?style=for-the-badge) ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black) |
 
 ---
 
@@ -74,16 +74,12 @@
 ## 📊 GitHub Stats
 
 <p>
-  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Habuskid&theme=github_dark&animation=load" alt="Habuskid top languages" />
-</p>
-<p>
   <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Habuskid&theme=github_dark&animation=sequence" alt="Habuskid GitHub stats" />
 </p>
 <p>
   <img align="center" src="https://streak-stats.demolab.com/?user=Habuskid&theme=dark" alt="Habuskid GitHub streak" />
 </p>
 
-> **Note:** Top languages are based on GitHub activity, not actual proficiency.
 
 ---
 
