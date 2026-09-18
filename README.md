@@ -25,7 +25,7 @@
 
 - 📫 Reach me on **X [@Habuskiid](https://x.com/Habuskiid)** or **Telegram [@habuskid01](https://t.me/habuskid01)**
 
-- ⚡ Fun fact: **Most of my projects start with a protocol doc, a terminal, and one question: can I make the real flow work?**
+- ⚡ Fun fact: **I code every day, even if it is just fixing one thing.**
 
 ---
 
