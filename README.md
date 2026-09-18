@@ -1,283 +1,221 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="Habuskid profile header" width="100%" />
-</p>
+# Abubakar Aminu
 
-<p align="center">
-  <a href="https://github.com/Habuskid">
-    <img src="https://img.shields.io/github/followers/Habuskid?label=Followers&style=flat-square" alt="GitHub followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Habuskid&style=flat-square&color=0ea5e9&label=Profile+views" alt="Profile views" />
-  <a href="https://x.com/Habuskiid">
-    <img src="https://img.shields.io/badge/X-@Habuskiid-111111?style=flat-square&logo=x&logoColor=white" alt="X" />
-  </a>
-  <a href="https://habuskid.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-habuskid.vercel.app-0ea5e9?style=flat-square" alt="Portfolio" />
-  </a>
-</p>
+**Full-stack Web3 engineer**
 
-## About
+I build Web3 products end to end: smart contracts, protocol logic, wallets, backend services, data layers, frontend applications, testing, deployment, and production checks.
 
-I build across full-stack engineering, Web3 infrastructure, cloud engineering, DevOps, autonomous agents, privacy, payments, and decision systems.
+My work spans **EVM chains, Starknet, Solana, privacy systems, DeFi, payments, cross-chain infrastructure, autonomous agents, NFT tooling, market/risk systems, and cloud/DevOps**.
 
-My work is usually built around a real end-to-end path: core logic first, then integration, reliability, infrastructure, deployment, interface, and polish. I prefer verifiable integrations, reproducible environments, explicit failure states, and deployment checks over mock functionality.
+[Portfolio](https://habuskid.vercel.app) · [X / Twitter](https://x.com/Habuskiid) · [GitHub](https://github.com/Habuskid)
 
-## Featured work
+---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## What I work on
+
+| Area | What I have built with |
+| --- | --- |
+| **Smart contracts & protocols** | Solidity, Foundry, Hardhat, Cairo, Starknet, Zama fhEVM, STRK20, GenLayer Intelligent Contracts |
+| **Web3 applications** | Next.js, React, TypeScript, viem, wagmi, ethers.js, WalletConnect, RainbowKit, SIWE |
+| **DeFi & payments** | Circle App Kit, CCTP, Morpho, x402, USDC/EURC flows, payroll streaming, cross-chain transfers |
+| **Privacy** | FHE with Zama, encrypted balances and claims, Starknet privacy tooling, selective disclosure |
+| **Agents & automation** | Binance Agentic MCP, Bitget Agent SDK, OKX x402, GenLayer, deterministic policy engines, keepers and scheduled jobs |
+| **Solana & NFT tooling** | Solana web3.js, Metaplex, Reservoir, wallet/activity tracking, mint and marketplace tooling |
+| **Backend & data** | Node.js, Express, Flask, PostgreSQL, Neon, Prisma, Drizzle, Supabase, Redis, Upstash, SQLite |
+| **Cloud & DevOps** | GitHub Actions, CI/CD, Vercel, serverless jobs, staging/production pipelines, secrets, migrations, health checks, deployment preflights |
+| **Testing** | Vitest, Jest, Playwright, Foundry tests, Pytest, integration and live-environment checks |
+
+---
+
+## Selected engineering work
 
 ### [Murk](https://github.com/Habuskid/murk)
+**Spending controls for autonomous agents on Celo**
 
-Spending authority for autonomous agents on Celo. Humans define economic limits in familiar accounting currencies while agents can settle permitted machine purchases through deterministic policy.
+A user defines how much an agent is allowed to spend. Murk enforces those limits before an x402 payment can be made.
 
-**Stack:** Celo, x402, Portal, ERC-8004, Next.js, TypeScript, viem, Neon, Drizzle, Vitest, Playwright
+What I built:
+- deterministic spending-policy engine
+- Celo testnet/mainnet configuration
+- x402 payment flow
+- Portal wallet/auth integration
+- Neon + Drizzle persistence
+- CI checks for tests, migrations, RPC configuration, facilitator support and FX coverage
+- separate staging and production deployment workflows
+- deployment preflight and post-deploy health checks
 
-[Repository](https://github.com/Habuskid/murk) · [Live app](https://murk-chi.vercel.app)
+**Stack:** TypeScript, Next.js, Celo, x402, viem, Portal, Neon, Drizzle, Vitest, Playwright, GitHub Actions
 
-</td>
-<td width="50%" valign="top">
+[Code](https://github.com/Habuskid/murk) · [Live](https://murk-chi.vercel.app)
+
+---
 
 ### [ClauseRoot](https://github.com/Habuskid/clauseroot)
+**Upgrade control for autonomous protocols on GenLayer**
 
-Constitutional upgrade control for autonomous protocols. GenLayer validators evaluate proposed source code against fixed governance rules before an upgrade can finalize.
+Protocol upgrades are submitted as source code. GenLayer validators evaluate the exact source against fixed rules before an upgrade can be accepted.
 
-**Stack:** GenLayer, GenVM, Intelligent Contracts, Transaction Kit, Python, Next.js, TypeScript
+What I built:
+- GenLayer Governor Intelligent Contract
+- immutable source verification using commit-pinned GitHub content
+- validator-based semantic checks
+- approved and rejected upgrade paths
+- live onchain proposal history
+- wallet-signed proposal flow and fee estimation
 
-[Repository](https://github.com/Habuskid/clauseroot) · [Live app](https://clauseroot.vercel.app)
+**Stack:** Python, TypeScript, Next.js, GenLayer, GenVM, Transaction Kit
 
-</td>
-</tr>
+[Code](https://github.com/Habuskid/clauseroot) · [Live](https://clauseroot.vercel.app)
 
-<tr>
-<td width="50%" valign="top">
-
-### [ClosedBell](https://closedbell.vercel.app/desk)
-
-Evidence-first decision desk for stress-testing tokenized-stock trades while the underlying US market is closed. Market evidence stays separate from deterministic portfolio risk calculations.
-
-**Stack:** Bitget Agent SDK, Next.js, TypeScript, Zod, Vitest, Playwright
-
-[Live desk](https://closedbell.vercel.app/desk) · [Demo](https://x.com/Habuskiid/status/2100443885029773700?s=20)
-
-</td>
-<td width="50%" valign="top">
-
-### [Sedge](https://github.com/Habuskid/sedge)
-
-Stablecoin copilot for natural-language swaps, bridges, transfers, balances, and transaction workflows across Circle and Arc infrastructure.
-
-**Stack:** Circle App Kit, CCTP, Arc, Next.js, TypeScript, viem, wagmi, Drizzle, PostgreSQL
-
-[Repository](https://github.com/Habuskid/sedge) · [Live app](https://sedge.vercel.app)
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
+---
 
 ### [Blindpot](https://github.com/Habuskid/blindpot)
+**Confidential no-loss savings on Zama fhEVM**
 
-Confidential no-loss savings protocol with encrypted balances, encrypted winner selection, and privacy-preserving prize claims.
+Savings balances, prize selection, and claims are handled with encrypted onchain state instead of exposing everything publicly.
 
-**Stack:** Zama fhEVM, Solidity, Foundry, Morpho, Next.js, TypeScript, viem, wagmi, Neon
+What I built:
+- Solidity contracts using Zama fhEVM
+- encrypted balance accounting
+- encrypted winner selection and claims
+- Morpho yield integration
+- Foundry contract tests
+- keeper automation and scheduled execution
+- Next.js frontend and wallet flow
 
-[Repository](https://github.com/Habuskid/blindpot) · [Live app](https://blindpot.vercel.app)
+**Stack:** Solidity, Foundry, Zama fhEVM, Morpho, Next.js, TypeScript, viem, wagmi, Neon
 
-</td>
-<td width="50%" valign="top">
+[Code](https://github.com/Habuskid/blindpot) · [Live](https://blindpot.vercel.app)
+
+---
 
 ### [Adyton](https://github.com/Habuskid/Adyton)
+**Private treasury controls on Starknet**
 
-Confidential treasury vaults with cryptographic spending-policy enforcement and selective auditor disclosure on Starknet.
+Treasury funds stay private while outgoing transfers still have to satisfy onchain spending rules.
 
-**Stack:** Starknet, STRK20, Cairo, Starknet.js, React, TypeScript, Vite
+What I built:
+- Cairo policy contracts
+- STRK20 privacy integration
+- private transfer flow
+- spending caps and recipient rules
+- Stark curve cryptography
+- selective auditor viewing-key flow
+- React/TypeScript frontend
 
-[Repository](https://github.com/Habuskid/Adyton)
+**Stack:** Cairo, Starknet, STRK20, Starknet.js, React, TypeScript, Vite
 
-</td>
-</tr>
+[Code](https://github.com/Habuskid/Adyton)
 
-<tr>
-<td width="50%" valign="top">
+---
+
+### [Sedge](https://github.com/Habuskid/sedge)
+**Cross-chain stablecoin operations through natural-language commands**
+
+Sedge turns user instructions into wallet actions for supported swaps, transfers and CCTP bridges.
+
+What I built:
+- intent parsing and transaction preparation
+- Circle App Kit integration
+- CCTP bridge flows
+- Arc, Ethereum Sepolia, Base Sepolia and Arbitrum Sepolia support
+- wallet connection and transaction history
+- PostgreSQL/Drizzle-backed application state
+
+**Stack:** Next.js, TypeScript, Circle App Kit, CCTP, Arc, viem, wagmi, PostgreSQL, Drizzle
+
+[Code](https://github.com/Habuskid/sedge) · [Live](https://sedge.vercel.app)
+
+---
 
 ### [Black Box](https://github.com/Habuskid/blvckbox)
+**Decision records and risk controls for autonomous financial agents**
 
-Forensic infrastructure for autonomous financial agents. It captures what an agent knew before a decision, separates decision quality from later P&L, and applies deterministic policy boundaries.
+Black Box records the evidence available to an agent before a decision, keeps later outcomes separate, and applies server-side risk checks before execution.
 
-**Stack:** Binance Agentic MCP, Next.js, TypeScript, Zod, server-side policy checks, Node test runner
+What I built:
+- Binance Agentic MCP integration
+- raw tool-result capture
+- constrained decision objects
+- deterministic exposure policy
+- decision-quality evaluation separated from P&L
+- fail-closed behavior when real tools or credentials are unavailable
 
-[Repository](https://github.com/Habuskid/blvckbox)
+**Stack:** Next.js, TypeScript, Binance Agentic MCP, Zod, Node.js
 
-</td>
-<td width="50%" valign="top">
+[Code](https://github.com/Habuskid/blvckbox)
 
-### [FlightClaim](https://github.com/Habuskid/flightclaim)
+---
 
-Deterministic EU261 eligibility agent with paid x402 access, live flight telemetry, rate limiting, and generated claim outputs.
+## Other shipped work
 
-**Stack:** Next.js, TypeScript, OKX x402, Upstash Redis, Jest, Tailwind CSS
+**[ClosedBell](https://closedbell.vercel.app/desk)**  
+Portfolio stress testing for tokenized-stock trades outside the underlying US market session. Uses Bitget market data, deterministic risk calculations, evidence capture, Vitest and Playwright.
 
-[Repository](https://github.com/Habuskid/flightclaim) · [Live app](https://flightclaim-one.vercel.app)
+**[FlightClaim](https://github.com/Habuskid/flightclaim)**  
+EU261 flight-compensation eligibility service with x402 payments, live flight data, Redis rate limiting and Jest tests.
 
-</td>
-</tr>
-</table>
+**[Renaiss Intelligence Agent](https://github.com/Habuskid/Renaiss-Intelligence-Agent)**  
+Collectibles/RWA research interface using live market data, Gemini analysis and interactive price history.
 
-## More things I have built
+**[ArcDrip](https://arcdrip.vercel.app)**  
+Smart-contract payroll streaming, vesting, expenses and stablecoin payments on Arc.
 
-- [Renaiss Intelligence Agent](https://github.com/Habuskid/Renaiss-Intelligence-Agent) — collectible and real-world-asset intelligence terminal using live Renaiss market data and Gemini analysis.
-- [ArcDrip](https://arcdrip.vercel.app) — multi-currency payroll streaming, expenses, vesting, and stablecoin flows on Arc.
-- [Finda](https://usefinda.vercel.app) — full-stack commerce application built with Next.js, Prisma, authentication, and server-side database workflows.
-- [RiskScan](https://github.com/Habuskid/riskscan) — wallet and token risk analysis service using live security data, AI-assisted assessment, Express, and x402.
-- [UI Reference Library](https://github.com/Habuskid/ui-templates) — GitHub-native Pinterest reference capture pipeline with Actions, Supabase, palette extraction, and a reusable gallery.
-- Demo Engine — deterministic product-demo tooling using Playwright, real browser state, FFmpeg, YAML scenes, and local voice tooling.
+**[RiskScan](https://github.com/Habuskid/riskscan)**  
+Wallet/token risk checks using live security data and an x402-enabled API.
 
-## Stack
+**[UI Reference Library](https://github.com/Habuskid/ui-templates)**  
+GitHub-native design-reference capture flow with Actions, Supabase and automated ingestion.
 
-### Languages
+I have also built private tooling around **Solana wallet/activity tracking, NFT minting and marketplace execution, commerce systems, Telegram automation, and demo automation**.
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
-  <img src="https://img.shields.io/badge/Cairo-111111?style=flat-square" alt="Cairo" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-</p>
+---
 
-### Frontend and application layer
+## Engineering approach
 
-<p>
-  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/shadcn%2Fui-111111?style=flat-square" alt="shadcn/ui" />
-  <img src="https://img.shields.io/badge/Base_UI-111111?style=flat-square" alt="Base UI" />
-  <img src="https://img.shields.io/badge/Radix_UI-111111?style=flat-square" alt="Radix UI" />
-  <img src="https://img.shields.io/badge/Recharts-111111?style=flat-square" alt="Recharts" />
-  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" />
-  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square" alt="Zod" />
-</p>
+I prefer to prove the hard part before polishing the interface.
 
-### Backend, data and automation
+1. Build the core logic.
+2. Integrate the real protocol or API.
+3. Make the full path work end to end.
+4. Add tests, failure handling and observability.
+5. Set up staging, deployment and production checks.
+6. Then finish the UI and demo.
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Flask-111111?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Neon-111111?style=flat-square" alt="Neon" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Drizzle-111111?style=flat-square" alt="Drizzle" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Upstash-00E9A3?style=flat-square" alt="Upstash" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Telegraf-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegraf" />
-</p>
+I do not use fake success states to hide missing integrations. If a dependency is unavailable, the application should fail clearly and say why.
 
-### Wallet, Web3 and protocol tooling
+---
 
-<p>
-  <img src="https://img.shields.io/badge/viem-111111?style=flat-square" alt="viem" />
-  <img src="https://img.shields.io/badge/wagmi-111111?style=flat-square" alt="wagmi" />
-  <img src="https://img.shields.io/badge/ethers.js-2535A0?style=flat-square" alt="ethers.js" />
-  <img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=flat-square&logo=walletconnect&logoColor=white" alt="WalletConnect" />
-  <img src="https://img.shields.io/badge/RainbowKit-111111?style=flat-square" alt="RainbowKit" />
-  <img src="https://img.shields.io/badge/SIWE-111111?style=flat-square" alt="SIWE" />
-  <img src="https://img.shields.io/badge/Foundry-111111?style=flat-square" alt="Foundry" />
-  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logoColor=111111" alt="Hardhat" />
-  <img src="https://img.shields.io/badge/Starknet.js-111111?style=flat-square" alt="Starknet.js" />
-  <img src="https://img.shields.io/badge/Solana_web3.js-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana web3.js" />
-  <img src="https://img.shields.io/badge/Metaplex-111111?style=flat-square" alt="Metaplex" />
-  <img src="https://img.shields.io/badge/Reservoir-111111?style=flat-square" alt="Reservoir" />
-</p>
+## Cloud / DevOps work
 
-### Networks, payments and privacy
+A few examples from my repositories:
 
-<p>
-  <img src="https://img.shields.io/badge/Celo-FCFF52?style=flat-square&logoColor=111111" alt="Celo" />
-  <img src="https://img.shields.io/badge/Arc-111111?style=flat-square" alt="Arc" />
-  <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" alt="Ethereum" />
-  <img src="https://img.shields.io/badge/Starknet-111111?style=flat-square" alt="Starknet" />
-  <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" alt="Solana" />
-  <img src="https://img.shields.io/badge/GenLayer-111111?style=flat-square" alt="GenLayer" />
-  <img src="https://img.shields.io/badge/Zama_fhEVM-111111?style=flat-square" alt="Zama fhEVM" />
-  <img src="https://img.shields.io/badge/Circle_App_Kit-00B14F?style=flat-square" alt="Circle App Kit" />
-  <img src="https://img.shields.io/badge/CCTP-00B14F?style=flat-square" alt="CCTP" />
-  <img src="https://img.shields.io/badge/STRK20-111111?style=flat-square" alt="STRK20" />
-  <img src="https://img.shields.io/badge/Morpho-2470FF?style=flat-square" alt="Morpho" />
-  <img src="https://img.shields.io/badge/x402-111111?style=flat-square" alt="x402" />
-  <img src="https://img.shields.io/badge/Portal-111111?style=flat-square" alt="Portal" />
-</p>
+- GitHub Actions CI for tests, builds and integration checks
+- separate staging and production deployment workflows
+- exact-commit promotion from testnet validation to mainnet deployment
+- secret-backed environment configuration
+- database migration checks before deployment
+- Vercel CLI builds and deployments
+- post-deploy health checks
+- scheduled keepers and cron jobs
+- serverless PostgreSQL/Redis infrastructure
+- deployment preflight scripts that reject invalid or placeholder configuration
 
-### Agent and AI integrations
+---
 
-<p>
-  <img src="https://img.shields.io/badge/Bitget_Agent_SDK-111111?style=flat-square" alt="Bitget Agent SDK" />
-  <img src="https://img.shields.io/badge/Binance_Agentic_MCP-111111?style=flat-square" alt="Binance Agentic MCP" />
-  <img src="https://img.shields.io/badge/OKX_x402-111111?style=flat-square" alt="OKX x402" />
-  <img src="https://img.shields.io/badge/GenLayer_Transaction_Kit-111111?style=flat-square" alt="GenLayer Transaction Kit" />
-  <img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini AI" />
-</p>
+## Current toolkit
 
-### Cloud engineering and DevOps
+**Languages:** TypeScript, JavaScript, Solidity, Cairo, Python, PHP, HTML/CSS  
+**Frontend:** Next.js, React, Vite, Tailwind CSS  
+**Web3:** viem, wagmi, ethers.js, Foundry, Hardhat, Starknet.js, Solana web3.js, Metaplex, Reservoir  
+**Networks / protocols:** Ethereum/EVM, Celo, Arc, Starknet, Solana, GenLayer, Zama fhEVM, Circle CCTP, Morpho, x402  
+**Data:** PostgreSQL, Neon, Prisma, Drizzle, Supabase, Redis, Upstash, SQLite  
+**Cloud / delivery:** GitHub Actions, Vercel, serverless workloads, Linux/Bash, Docker, Railway, Modal, Vultr, AWS  
+**Testing:** Vitest, Jest, Playwright, Foundry, Pytest
 
-<p>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/CI%2FCD-111111?style=flat-square" alt="CI/CD" />
-  <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Serverless-111111?style=flat-square" alt="Serverless" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Railway-111111?style=flat-square&logo=railway&logoColor=white" alt="Railway" />
-  <img src="https://img.shields.io/badge/Modal-111111?style=flat-square" alt="Modal" />
-  <img src="https://img.shields.io/badge/Vultr-007BFC?style=flat-square" alt="Vultr" />
-  <img src="https://img.shields.io/badge/GitHub_Codespaces-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Codespaces" />
-</p>
+---
 
-<p>
-  <img src="https://img.shields.io/badge/Neon_Serverless_Postgres-111111?style=flat-square" alt="Neon Serverless Postgres" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Upstash_Redis-00E9A3?style=flat-square" alt="Upstash Redis" />
-  <img src="https://img.shields.io/badge/Secrets_%26_Env_Management-111111?style=flat-square" alt="Secrets and environment management" />
-  <img src="https://img.shields.io/badge/DB_Migrations-111111?style=flat-square" alt="Database migrations" />
-  <img src="https://img.shields.io/badge/Health_Checks-111111?style=flat-square" alt="Health checks" />
-  <img src="https://img.shields.io/badge/Cron_%26_Scheduled_Jobs-111111?style=flat-square" alt="Cron and scheduled jobs" />
-  <img src="https://img.shields.io/badge/Staging_%E2%86%92_Production-111111?style=flat-square" alt="Staging to production promotion" />
-</p>
+## Open to engineering roles
 
-Across the repositories I use CI pipelines, isolated staging and production environments, secret-backed deployments, exact dependency installs, database migration gates, deployment preflights, post-deploy health checks, scheduled serverless jobs, and commit-pinned release promotion.
+I am interested in **Web3 / blockchain engineering, full-stack Web3, protocol engineering, and Web3 infrastructure roles** where I can work across contracts, backend, frontend and deployment.
 
-### Testing and delivery
-
-<p>
-  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white" alt="Jest" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-</p>
-
-## Contribution activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg">
-  <img alt="Habuskid contribution activity" src="https://raw.githubusercontent.com/Habuskid/Habuskid/gh-pages/github-contribution-grid-snake.svg" width="100%" />
-</picture>
-
-## Connect
-
-- X: [@Habuskiid](https://x.com/Habuskiid)
-- Portfolio: [habuskid.vercel.app](https://habuskid.vercel.app)
-- GitHub: [github.com/Habuskid](https://github.com/Habuskid)
+For work or collaboration: [X @Habuskiid](https://x.com/Habuskiid) · [Portfolio](https://habuskid.vercel.app)
