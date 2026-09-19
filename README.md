@@ -75,7 +75,7 @@
 ## 📊 GitHub Stats
 
 <p>
-  <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Habuskid&theme=github_dark&animation=sequence" alt="Habuskid GitHub stats" />
+  <img align="center" src="./assets/github-stats.svg" alt="Habuskid GitHub stats" />
 </p>
 <p>
   <img align="center" src="https://streak-stats.demolab.com/?user=Habuskid&theme=dark" alt="Habuskid GitHub streak" />
