@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="Habuskid profile banner" width="100%" />
-</p>
-
 <h1 align="center">Habuskid <br/> GitHub Profile</h1>
 <h3 align="center">Full Stack Web3 Developer</h3>
 
