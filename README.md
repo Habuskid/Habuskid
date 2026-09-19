@@ -72,16 +72,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p>
-  <img align="center" src="./assets/github-stats.svg" alt="Habuskid GitHub stats" />
-</p>
-<p>
-  <img align="center" src="https://streak-stats.demolab.com/?user=Habuskid&theme=dark" alt="Habuskid GitHub streak" />
-</p>
-
-
 ---
 
 ## 🐍 Contribution Activity
