@@ -1,39 +1,74 @@
-<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="360" fill="#0A0D12"/>
+<svg width="1400" height="300" viewBox="0 0 1400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="300" rx="18" fill="#080C13"/>
+  <rect x="1" y="1" width="1398" height="298" rx="17" stroke="#1F2A38" stroke-width="2"/>
 
-  <defs>
-    <clipPath id="clip">
-      <rect width="1400" height="360" rx="20"/>
-    </clipPath>
-  </defs>
+  <rect x="72" y="62" width="4" height="176" rx="2" fill="#38BDF8"/>
 
-  <g clip-path="url(#clip)">
-    <rect x="1" y="1" width="1398" height="358" rx="19" stroke="#202833" stroke-width="2"/>
+  <text x="112" y="128"
+        fill="#F8FAFC"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="72"
+        font-weight="700"
+        letter-spacing="1">
+    HABUSKID
+  </text>
 
-    <g opacity="0.82" fill="none" stroke-linecap="round">
-      <path d="M-90 302C120 198 270 323 466 253C690 172 752 232 916 214C1100 194 1188 92 1490 134" stroke="#0EA5E9" stroke-width="2"/>
-      <path d="M-88 318C128 214 282 338 480 270C704 193 774 250 938 232C1120 212 1202 111 1492 151" stroke="#22D3EE" stroke-width="1.7"/>
-      <path d="M-82 334C138 232 292 352 492 288C716 216 796 270 958 250C1142 230 1222 132 1496 169" stroke="#38BDF8" stroke-width="1.4"/>
-      <path d="M-76 350C146 250 306 368 506 305C728 237 820 288 980 269C1162 248 1244 151 1500 187" stroke="#60A5FA" stroke-width="1.2"/>
-      <path d="M1010 326C1118 268 1148 221 1196 177C1246 131 1294 110 1452 102" stroke="#0EA5E9" stroke-width="1.5"/>
-      <path d="M1046 344C1148 290 1180 242 1226 201C1270 161 1318 140 1466 130" stroke="#22D3EE" stroke-width="1.2"/>
-    </g>
+  <text x="114" y="173"
+        fill="#AFC4D8"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24"
+        font-weight="500"
+        letter-spacing="1.6">
+    FULL-STACK WEB3 ENGINEER
+  </text>
 
-    <g opacity="0.12" stroke="#64748B" stroke-width="1">
-      <path d="M0 72H1400"/>
-      <path d="M0 144H1400"/>
-      <path d="M0 216H1400"/>
-      <path d="M0 288H1400"/>
-    </g>
+  <text x="114" y="213"
+        fill="#6F849B"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        letter-spacing="0.8">
+    smart contracts  /  applications  /  infrastructure
+  </text>
 
-    <circle cx="1240" cy="74" r="5" fill="#38BDF8"/>
-    <circle cx="1274" cy="74" r="5" fill="#22D3EE"/>
-    <circle cx="1308" cy="74" r="5" fill="#0EA5E9"/>
+  <g transform="translate(930 70)">
+    <text x="0" y="0"
+          fill="#6F849B"
+          font-family="monospace"
+          font-size="14"
+          letter-spacing="1.2">
+      WORKING ACROSS
+    </text>
 
-    <text x="82" y="143" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="1">HABUSKID</text>
-    <text x="86" y="193" fill="#22D3EE" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="4">FULL STACK WEB3 ENGINEER</text>
-    <text x="86" y="236" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="1.4">WEB3 · CLOUD · DEVOPS · AI</text>
+    <text x="0" y="46"
+          fill="#E2E8F0"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="25"
+          font-weight="600">
+      EVM
+    </text>
+    <text x="0" y="84"
+          fill="#E2E8F0"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="25"
+          font-weight="600">
+      STARKNET
+    </text>
+    <text x="0" y="122"
+          fill="#E2E8F0"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="25"
+          font-weight="600">
+      SOLANA
+    </text>
 
-    <rect x="86" y="267" width="160" height="3" rx="1.5" fill="#0EA5E9"/>
+    <path d="M0 154H338" stroke="#1F2A38" stroke-width="1"/>
+
+    <text x="0" y="184"
+          fill="#38BDF8"
+          font-family="monospace"
+          font-size="13"
+          letter-spacing="1">
+      github.com/Habuskid
+    </text>
   </g>
 </svg>
