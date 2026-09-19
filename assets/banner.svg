@@ -1,74 +1,44 @@
 <svg width="1400" height="300" viewBox="0 0 1400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="300" rx="18" fill="#080C13"/>
-  <rect x="1" y="1" width="1398" height="298" rx="17" stroke="#1F2A38" stroke-width="2"/>
+  <rect width="1400" height="300" fill="#07101C"/>
+  <rect x="1" y="1" width="1398" height="298" stroke="#1C2B3A" stroke-width="2"/>
 
-  <rect x="72" y="62" width="4" height="176" rx="2" fill="#38BDF8"/>
+  <rect x="72" y="66" width="3" height="168" fill="#38BDF8"/>
 
-  <text x="112" y="128"
+  <text x="108" y="130"
         fill="#F8FAFC"
         font-family="Arial, Helvetica, sans-serif"
         font-size="72"
         font-weight="700"
-        letter-spacing="1">
-    HABUSKID
-  </text>
+        letter-spacing="1">HABUSKID</text>
 
-  <text x="114" y="173"
-        fill="#AFC4D8"
+  <text x="111" y="174"
+        fill="#7DD3FC"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="24"
-        font-weight="500"
-        letter-spacing="1.6">
-    FULL-STACK WEB3 ENGINEER
-  </text>
+        font-size="23"
+        font-weight="600"
+        letter-spacing="3">FULL-STACK WEB3 ENGINEER</text>
 
-  <text x="114" y="213"
-        fill="#6F849B"
+  <line x1="111" y1="205" x2="770" y2="205" stroke="#1F3548" stroke-width="1"/>
+
+  <text x="111" y="235"
+        fill="#8EA3B7"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="18"
-        letter-spacing="0.8">
-    smart contracts  /  applications  /  infrastructure
-  </text>
+        font-size="17"
+        letter-spacing="1">Smart contracts · full stack · cloud · protocol infrastructure</text>
 
-  <g transform="translate(930 70)">
-    <text x="0" y="0"
-          fill="#6F849B"
-          font-family="monospace"
-          font-size="14"
-          letter-spacing="1.2">
-      WORKING ACROSS
-    </text>
+  <line x1="1010" y1="67" x2="1010" y2="233" stroke="#1F3548" stroke-width="1"/>
 
-    <text x="0" y="46"
-          fill="#E2E8F0"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="25"
-          font-weight="600">
-      EVM
-    </text>
-    <text x="0" y="84"
-          fill="#E2E8F0"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="25"
-          font-weight="600">
-      STARKNET
-    </text>
-    <text x="0" y="122"
-          fill="#E2E8F0"
-          font-family="Arial, Helvetica, sans-serif"
-          font-size="25"
-          font-weight="600">
-      SOLANA
-    </text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.4">
+    <text x="1050" y="100" fill="#647B90">01</text>
+    <text x="1100" y="100" fill="#DCE7F2">EVM</text>
 
-    <path d="M0 154H338" stroke="#1F2A38" stroke-width="1"/>
+    <text x="1050" y="140" fill="#647B90">02</text>
+    <text x="1100" y="140" fill="#DCE7F2">STARKNET</text>
 
-    <text x="0" y="184"
-          fill="#38BDF8"
-          font-family="monospace"
-          font-size="13"
-          letter-spacing="1">
-      github.com/Habuskid
-    </text>
+    <text x="1050" y="180" fill="#647B90">03</text>
+    <text x="1100" y="180" fill="#DCE7F2">SOLANA</text>
+
+    <text x="1050" y="220" fill="#647B90">04</text>
+    <text x="1100" y="220" fill="#DCE7F2">AI / LLM</text>
   </g>
 </svg>
