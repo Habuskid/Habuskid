@@ -72,8 +72,6 @@
 
 ---
 
----
-
 ## 🐍 Contribution Activity
 
 <picture>
